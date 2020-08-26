@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+}
+body {
+background: rgb(158, 107, 201);
+font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+h1 strong{
+    color: rgb(1, 17, 2);
+}
+
+ul{list-style: none;
+    margin: 0px;
+   padding: 0px; 
+display: flex;
+height: inherit ;
+
+}
+.header{
+    background: rgb(39, 2, 82);
+    color: rgb(57, 201, 141);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    
+    
+}
+.header a {
+    color: rgb(238, 241, 245);
+    text-decoration: none;
+display: flex;
+height: inherit;
+display: flex;
+height:inherit ;
+align-items: center;
+padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.logo img{
+    width: 80px;
+}
+.menu {
+height: inherit;
+}
+
+
+.principal {
+    color: rgb(238, 239, 245);
+    background:whi;
+    background-image: url('img /fondo\ .jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    padding: 100px;
+ }
+ .principal img{
+        width: 300px;
+    }
+
+    .principal-boton{
+        width: 250px;
+        height: 40px;
+        background-color: rgb(144, 221, 252);
+        border-radius: 24px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    
+
+.Somos {
+    color: rgb(227, 228, 233);
+    background:rgb(166, 107, 201);
+    text-align:center;
+    padding:  50px;
+    margin: 50px 100px;
+    font-size: 20px;
+}
+.Somos h2 {
+    color: #99cc00;
+}
+
+/*
+.padre{
+    background:white ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+
+.aplicar{
+    height: 500px;
+    background:rgb(158, 107, 201 ;
+    color: rgb(143, 15, 218);
+    display: flex;
+}
